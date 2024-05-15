@@ -33,7 +33,6 @@ h2 {
     margin-top: 50px;
 }
 button {
-    /* Remove position: absolute; */
     width: 150px;
     height: inherit;
     color: white;
@@ -60,3 +59,4 @@ button:nth-child(2) {
     background: white;
     color: #e94d58;
 }
+
