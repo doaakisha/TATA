@@ -33,7 +33,7 @@ h2 {
     margin-top: 50px;
 }
 button {
-    position: absolute;
+    /* Remove position: absolute; */
     width: 150px;
     height: inherit;
     color: white;
@@ -44,6 +44,12 @@ button {
     box-shadow: 0 2px 4px gray;
     border: 2px solid #e94d58;
     font-size: 1.2em;
+}
+.yes-btn {
+    /* Remove position: absolute; */
+}
+.no-btn {
+    position: absolute; /* Keep position: absolute; for the "no" button */
 }
 button:nth-child(1) {
     margin-left: -200px;
