@@ -9,6 +9,9 @@ yesBtn.addEventListener("click", () => {
   gif.src =
     "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
 
+  yesBtn.style.display = "none";
+  noBtn.style.display = "none";
+
 noBtn.addEventListener("mouseover", () => {
   const noBtnRect = noBtn.getBoundingClientRect();
   const maxX = window.innerWidth - noBtnRect.width;
@@ -20,6 +23,4 @@ noBtn.addEventListener("mouseover", () => {
   noBtn.style.left = randomX + "px";
   noBtn.style.top = randomY + "px";
 
-  yesBtn.style.display = "none";
-  noBtn.style.display = "none";
 });
