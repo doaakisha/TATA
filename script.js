@@ -12,6 +12,14 @@ yesBtn.addEventListener("click", () => {
   background-size: 50px;
 });
 
+footer {
+   height: 150px;
+   background-image: url(https://i.ibb.co/nPNrBRX/heizou-bc-rp.gif);
+   background-position: centre !important;
+   background-size: cover;
+   box-shadow: calc((400px + (25px * 2)) * 0.025) calc((400px + (25px * 2)) * 0.025) 
+  #8D021F}
+
 noBtn.addEventListener("mouseover", () => {
   const noBtnRect = noBtn.getBoundingClientRect();
   const maxX = window.innerWidth - noBtnRect.width;
